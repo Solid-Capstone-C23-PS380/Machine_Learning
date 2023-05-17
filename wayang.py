@@ -4,13 +4,13 @@ from io import StringIO
 import numpy as np
 import tensorflow as tf
 
-new_model = tf.keras.models.load_model('model.h5')
+new_model = tf.keras.models.load_model('Model2.h5')
 
 st.markdown("<h1 style='text-align: center;'>Predict Ala-ala</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center;'>Abimanyu,Antasena,Arjuna,Bagong,Bima</h1>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>Abimanyu,Antasena,Bagong,Bima,Gatot Kaca</h1>", unsafe_allow_html=True)
 st.text('')
 st.text('')
-class_names = ["Abimanyu","Antasena","Arjuna","Bagong","Bima"]
+class_names = ['Abimanyu', 'Antasena', 'Bagong', 'Bima', 'Gareng', 'Gatot Kaca', 'Hanoman', 'Krisna', 'Petruk', 'Semar']
 
 uploaded_files = st.file_uploader("Choose a file", type=['png', 'jpg'])
 if uploaded_files is not None:
