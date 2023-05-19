@@ -4,7 +4,7 @@ from io import StringIO
 import numpy as np
 import tensorflow as tf
 
-new_model = tf.keras.models.load_model('Model2.h5')
+new_model = tf.keras.models.load_model('E:\Semester 6\Berkas Bangkit\Capstone Fix\Machine_Learning\Model.h5')
 
 st.markdown("<h1 style='text-align: center;'>Predict Ala-ala</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center;'>Abimanyu,Antasena,Bagong,Bima,Gatot Kaca</h1>", unsafe_allow_html=True)
