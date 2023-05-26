@@ -12,7 +12,7 @@ st.text('')
 st.text('')
 class_names = ['Abimanyu', 'Antasena', 'Bagong', 'Bima', 'Gareng', 'Gatot Kaca', 'Hanoman', 'Krisna', 'Petruk', 'Semar']
 
-uploaded_files = st.file_uploader("Choose a file", type=['png', 'jpg'])
+uploaded_files = st.file_uploader("Choose a file", type=['png', 'jpg', 'jpeg'])
 if uploaded_files is not None:
     bytes_data = uploaded_files.getvalue()
     st.image(bytes_data)
