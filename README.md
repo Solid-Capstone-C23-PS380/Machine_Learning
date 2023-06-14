@@ -1,1 +1,4 @@
-# Machine_Learning
+# Semar-Machine-Learning
+
+
+#Library, Pre-Trained Model, & Method Used
